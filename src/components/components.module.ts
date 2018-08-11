@@ -1,8 +1,8 @@
 import { NgModule } from '@angular/core';
-import { ComponentsHelloWorldComponent } from './components-hello-world/components-hello-world';
+import { HelloWorldComponent } from './components-hello-world/components-hello-world';
 @NgModule({
-	declarations: [ComponentsHelloWorldComponent],
+	declarations: [HelloWorldComponent],
 	imports: [],
-	exports: [ComponentsHelloWorldComponent]
+	exports: [HelloWorldComponent]
 })
 export class ComponentsModule {}

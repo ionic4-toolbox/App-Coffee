@@ -8,16 +8,24 @@
 </ion-header>
 
 <ion-content>
-  <ion-list>
-    <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
-      <ion-icon [name]="item.icon" item-start></ion-icon>
-      {{item.title}}
-      <div class="item-note" item-end>
-        {{item.note}}
-      </div>
-    </button>
-  </ion-list>
-  <div *ngIf="selectedItem" padding>
-    You navigated here from <b>{{selectedItem.title}}</b>
+  <div>
+    <label>ID</label>
+    <p>{{coffee.id}}</p>
+  </div>
+  <div>
+    <label>Brand</label>
+    <p>{{coffee.brand}}</p>
+  </div>
+  <div>
+    <label>Name</label>
+    <p>{{coffee.name}}</p>
+  </div>
+  <div>
+    <label>Originating Country</label>
+    <p>{{coffee.originatingCountry}}</p>
+  </div>
+  <div>
+    <label>Roastery</label>
+    <p>{{coffee.roastery}}</p>
   </div>
 </ion-content>

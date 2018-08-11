@@ -1,3 +1,16 @@
 page-home {
+    background-image: url(../../assets/imgs/pergament.jpg);
+    background-size: cover;
+    opacity: 0.2; //doesn't work...
 
+    .content {
+        margin: 1em;
+        background-color: transparent;
+    }
+
+    h3 {
+        color: blue;
+    }
+
+    
 }
